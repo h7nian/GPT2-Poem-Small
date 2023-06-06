@@ -2,7 +2,7 @@
 
 ## Model Description
 
-The model, based on GPT2, is used to generate Chinese ancient poems and couplets. You can get the model in [GPT2-Poem-Small](https://huggingface.co/snzhang/GPT2-Poem-Small)
+The model, based on GPT2, is used to generate Chinese ancient poems and couplets. You can try the model in [GPT2-Poem-Small](https://huggingface.co/snzhang/GPT2-Poem-Small)
 
 ## Download script and prepare the environment
 
