@@ -1,0 +1,5 @@
+torch = 2.0.0+cu118
+transformers = 4.29.0
+wanda =  0.15.3
+deepspeed = 0.9.2
+datasets = 2.12.0
