@@ -26,18 +26,17 @@ You can run this to finetune the model.
 deepspeed --num_gpus=1 train.py \
 --deepspeed ds_config.json \
 --model_name_or_path snzhang/GPT2-Poem-Small \
---train_file data.csv \
+--train_file Your_Train_Data \
 --do_train \
 --fp16 \
 --overwrite_cache \
 --evaluation_strategy="steps" \
---output_dir finetuned \
+--output_dir Output_dir \
 --num_train_epochs 1 \
 --gradient_accumulation_steps 2 \
 --per_device_train_batch_size 8
 ```
 
-- You can replace the `data.csv` with your own data
 - There are more parameters you can add to it. More details in [HuggingFace Deepspeed Intergration](https://huggingface.co/docs/transformers/main_classes/deepspeed)
 
 ## Generate the text with your own model
